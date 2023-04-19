@@ -1,0 +1,646 @@
+  /* Style the login form container */
+  #login-holder ,#add-holder{
+    background-image: url("assets/chelsea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Set the width and height of the login form */
+  #wrapper, #wrapper-add {
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+    background-image: url("assets/rcjms.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-shadow: 0 0 10px grey;
+  }
+  
+  /* Style the form elements */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+input[type="text"],
+input[type="password"],
+input[type="number"],
+#role-dropdown  
+{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 280px; /* optional: to set the maximum width of the inputs */
+}
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: blue;
+  }
+  
+  /* Style the validation message */
+  #email-validation,
+  #password-validation {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the login button */
+  #login-button,
+  #signup-button,
+  #add-comp-button{
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  #login-button:hover {
+    background-color: #0f0fc7;
+  }
+  
+  /* Style the signup section */
+  #signup-section {
+    font-size: 14px;
+    margin-top: 130px;
+    text-align: center;
+  }
+  
+  #signup-section a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  #signup-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the footer */
+  #footer-container,
+  #footer-container2
+  #footer-container3
+  #footer-element,
+  #footer-element2,
+  #footer-element3  {
+    position: bottom;
+    background-color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  #logo,
+  #logo2,
+  #logo3
+  {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  /*  */
+  #signup-holder-register {
+    background-image: url("assets/chelsea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #wrapper-register {
+    width: 300px;
+    height: 500px;
+    margin-right: 20px;
+    background-image: url("assets/rcjms.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-shadow: 0 0 10px grey;
+  }
+  
+  /*page1*/
+  header {
+    background:linear-gradient(to right, #f00, #00f);    
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    margin-right: 30px;
+  }
+  
+  #info-page,
+  #shop-page,
+  #info-page-magazin,
+  #info-page-magazin2,
+  #shop-page-magazin,
+  #shop-page-magazin2,
+  #add-player
+  {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .img-cont:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s ease;
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #0b3d91;
+    color: white;
+  }
+  
+  td img {
+    width: 150px;
+  }
+  
+  td b {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  td table {
+    margin: 0;
+  }
+  
+  td table td, td table th {
+    border: none;
+    padding: 5px;
+  }
+  
+  td table th {
+    text-align: left;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+
+  /* tabel jucatori  */
+  #player-table,
+  #trophy-table {
+    color:black;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    height: 200px; /* set the table height */
+    background-color: wheat;
+  }
+
+  #player-table tbody tr:hover,
+  #trophy-table tbody tr:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+    height: 40px; /* set the header height */
+  }
+  
+  tbody tr {
+    height: 30px; /* set the row height */
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  #img-player {
+    max-width: 40px;
+    max-height: 40px;
+  }
+ 
+  /* main page //--- paragraph */
+  #pagina-principala-div {
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    section {
+    margin-bottom: 30px;
+    }
+    
+    h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    p {
+    font-size: 18px;
+    line-height: 1.5;
+    }
+    
+    u {
+    text-decoration: underline;
+    }
+    
+    b {
+    font-weight: bold;
+    }
+
+    #body-main-page {
+      background-image: url("assets/cer.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      
+    }
+ 
+ /* tricouri */
+ 
+/* Style for the main container */
+#main {
+  background-image: url("assets/cer.jpg");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 30px;
+  margin-top: 10px;
+  }
+  
+  /* Style for the image containers */
+  /* Style for the images */
+  
+  #img-cont {
+    height: 450px !important;
+    width: 450px !important;
+    margin-bottom: 20px;
+  }
+  /* Butoane sortare */
+  /* Styling the input field */
+#search-name {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 250px;
+  margin-right: 10px;
+}
+
+/* Styling the button */
+#sort-button {
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+}
+
+/* Changing the color of the button on hover */
+#sort-button:hover {
+  background-color: #f3f6f3;
+}
+
+/* Styling the dropdown */
+#position-dropdown {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+/* Styling the dropdown options */
+#position-dropdown option {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Changing the color of the dropdown arrow */
+#position-dropdown::-ms-expand {
+  color: #333;
+}
+
+#position-dropdown::before {
+  
+  content: "\25BC";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  pointer-events: none;
+}
+/* imagine pop up */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-container img {
+  width: 380px;
+  height: 380px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #fff;
+}
+
+.popup-text {
+  color: white;
+}
+.popup-text .close-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  line-height: 1;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+/* view more button */
+/* File: style.css */
+/* File: style.css */
+
+#list-container {
+  display: inline-block;
+}
+
+#names {
+  list-style: none;
+  padding: 0;
+}
+
+#names li {
+  margin-bottom: 10px;
+  display: block; /* show each list item one below the other */
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+#view-more {
+  display: block;
+  margin-top: 10px;
+  border: none;
+  background-color: #0074D9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#view-more:hover {
+  background-color: #001f3f;
+}
+
+#table-nested{color: white;
+    background-color: salmon;
+}
+
+ul li {
+  color: green;
+}
+/* stock page */
+/* Set the background color of the body element */
+#bodyyy {
+  background-color: #ebdf814f;
+}
+
+/* Style the heading elements */
+h2, h3 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Style the paragraph elements */
+#par1,#par2,#par3,#par4,#par5,#p4,#p5,#p6 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the anchor element */
+#a1 {
+  text-decoration: none;
+  color: #0066cc;
+  
+  
+}
+#a1:hover {
+  font-size: 1.4em;
+}
+
+/* Style the form element */
+#forrrm,#pre-order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Style the label element */
+#lb1,#lb2 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Style the input element */
+#inp1 , #inp2 {
+  width: 60%;
+  padding: 10px;
+  border-color: #0f0fc7;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+/* Style the button element */
+#btn1 , #btn2 {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style the table element */
+#rowspan-table {
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+/* Style the table cell elements */
+td {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Style the table header elements */
+th {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+  background-color: #0066cc;
+  color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the first table cell in each row */
+#td1, #td3 {
+  width: 30%;
+}
+
+/* Style the second table cell in the second row */
+#td2, #td4 {
+  width: 70%;
+}
+
+/* Style the list item elements */
+.review {
+  margin-top: 30px;
+}
+
+/* Style the article element within each list item */
+.review article {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style the review heading element */
+.review h3 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* Style the review information paragraph element */
+.review-info {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Style the code element within the review information paragraph element */
+.review-info code {
+  font-family: monospace;
+}
+#message3 ,#message4 {
+  padding: 10px;
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* live drop down!!! */
+/* center the drop-downs horizontally */
+select {
+  display: block;
+  margin: 0 auto;
+}
+
+/* set the font size and style */
+#labelll, select {
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* style the label */
+#labelll {
+  display: block;
+  margin-bottom: 0.5rem;
+}
